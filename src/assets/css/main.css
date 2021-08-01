@@ -1,0 +1,76 @@
+#app{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    scroll-behavior: smooth;
+}
+
+.wave-home{
+    position: absolute;
+}
+
+.wave-hero{
+    transition: scale(1.5);
+}
+
+.router-link-exact-active{
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #dc143c;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #c51e3f;
+}
+
+
+
+
+
+.best-product{
+    position: relative;
+    z-index: 999;
+    bottom: -70px;
+}
+
+.card:hover{
+    box-shadow: 23px 22px 79px -14px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 23px 22px 79px -14px rgba(0,0,0,0.19);
+    -moz-box-shadow: 23px 22px 79px -14px rgba(0,0,0,0.19);
+}
+
+
+.img-card{
+    transition: transform .5s;
+    transform: scale(1.1);
+}
+
+.img-card:hover{
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.get-it{
+    position: relative;
+    bottom: -150px;
+}
+
+
+
+.breadcrumb{
+    background-color: white;
+    padding: 0;
+}
+
+.breadcrumb-item.active{
+    font-weight: bold;
+    color: black;
+}
